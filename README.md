@@ -4,13 +4,17 @@
 ## WURCS Docummentation
   
   * 
-  
+
+## Software Tools
+
+ * ...
+
 ## Publications
 
   * WURCS
   * WURCS2
 
-## Resources
+## Repositories
 
   * WURCSFramework
   * Format Converter
@@ -18,4 +22,4 @@
     * GlycoCT To WURCS
     * WURCS To GlycoCT
     * WURCS to IUPAC
-    * 
+
