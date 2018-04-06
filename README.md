@@ -34,3 +34,6 @@ The computational analysis of complex carbohydrates, or glycans, has produced a 
     * WURCS To GlycoCT
     * WURCS to IUPAC
 
+## Acknowledgements
+
+This work has been supported by National Bioscience Database Center (NBDC) of Japan Science and Technology Agency (JST).
