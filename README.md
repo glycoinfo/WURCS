@@ -1,6 +1,8 @@
 # WURCS Information
   * WURCS is ...
 
+## WURCS Working Group
+
 ## Docummentation
   
   * 
