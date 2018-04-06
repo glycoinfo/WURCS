@@ -28,6 +28,10 @@ WURCS is a representation of carbohydrate structure.
     * WURCS To GlycoCT
     * WURCS to IUPAC
 
+## Contact
+
+* yamadaissaku@gmail.com
+
 ## Acknowledgements
 
 This work has been supported by National Bioscience Database Center (NBDC) of Japan Science and Technology Agency (JST).
