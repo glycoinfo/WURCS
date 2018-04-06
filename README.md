@@ -1,6 +1,3 @@
-# Web3 Unique Representation of Carbohydrate Structures
-
-
 ## WURCS Working Group
  * The WURCS Working Group is the primary community focusing on the development of glycan representation guidelines, accumulating and reflecting recommendations from international communities.
 
