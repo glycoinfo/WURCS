@@ -1,7 +1,7 @@
-# WURCS Information Site
+# WURCS Information
   * WURCS is ...
 
-## WURCS Docummentation
+## Docummentation
   
   * 
 
