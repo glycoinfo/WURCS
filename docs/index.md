@@ -33,9 +33,9 @@ WURCS is a representation of carbohydrate structure.
     * mol2wurcs2std.jar
       * WURCS2.0 Conversion System from CTFile (Molfile or SDfile)
         * Current version: 2.0.180815US
-          * Usage 1: cat [File] | java (mol2wurcs2std.jar [OPTION]... 
-          * Usage 2: java -jar mol2wurcs2std.jar -f [File] -out
-        * Help: java -jar mol2wurcs2std -h
+          * Usage 1: <pre> cat [File] | java (mol2wurcs2std.jar [OPTION]... </pre> 
+          * Usage 2: <pre> java -jar mol2wurcs2std.jar -f [File] -out </pre>
+        * Help: <pre> java -jar mol2wurcs2std -h </pre>
 
 ## Contact
 
