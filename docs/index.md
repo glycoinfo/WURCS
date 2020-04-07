@@ -2,6 +2,7 @@
 
 The WURCS Working Group is the primary community focusing on the development of glycan representation guidelines, accumulating and reflecting recommendations from international communities.
 
+![Sorbitol](https://github.com/glycoinfo/WURCS/blob/master/docs/logo/WURCS_logo.png?raw=true "WURCS")
 
 ## [About WURCS](about.md)
 
