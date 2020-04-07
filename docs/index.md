@@ -11,6 +11,10 @@ WURCS is a representation of carbohydrate structure.
   
   * 
 
+## [Tips](tips.md)
+
+
+
 ## Software Tools (Related Links)
 
  * ...
