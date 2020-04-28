@@ -8,7 +8,7 @@ The WURCS Working Group is the primary community focusing on the development of 
 
 WURCS is a representation of carbohydrate structure.
 
-## Docummentation
+## Documentation
   
   * 
 
