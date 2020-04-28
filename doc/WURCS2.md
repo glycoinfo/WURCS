@@ -153,6 +153,95 @@ Direction is omitted if it is obvious from CarbonDescriptor, but it cannot be om
 | Monosaccharide | A combination of a Backbone, Modification(s) on the Backbone and their Connection(s). |
 | Linkage | A combination of a Modification bridging two or more Backbones and their Connections. |
 
+* Each components are encoded to the string based on each rules.
+
+
+### Backbone
+
+#### Definition:
+
+* A carbohydrate is a polyhydroxy aldehyde or -ketone. The substance class of alditols is treated as carbohydrates.
+
+ - Aromatic or carbocyclic ring is not treated as carbohydrate.
+
+* A backbone is the carbon backbone of a monosaccharide in a glycan containing only carbons.
+
+ - Hydroxyl groups and hydrogens attached a backbone carbon are also treated as modification.
+
+ - A ring information is not treated as backbone.
+
+
+* Backbone structure is represented as SkeletonCode. If Backbone has anomeric center Anomeric Information is also contained.
+
+### Modification
+
+#### Definition:
+* Components of glycans other than the carbon of monosaccharide backbones.
+* Modification also include in the hydrogen and oxygen atoms attached to the carbons of the backbones in addition to other heteroatoms.
+* Modification is represented as MAP.
+
+
+### Aglycone
+
+* The non-sugar component of a glycan, which is usually connected to the anomeric carbon position of backbone. In WURCS, aglycone is a Modification but not treated in standard. If you want to contain the aglycone to the WURCS, “@” is used instead of the MAP but it is not standard WURCS. GlyTouCan allow only standard WURCSs.
+
+* For example, WURCS of a D-glucopyranoside which has aglycone is represented as following:
+
+`WURCS=2.0/1,1,0/[a2122h-1x_1-5_1@]/1/`
+
+* For the MAP of aglycone, you can contain only “@”. Another information must not be contained in WURCS. If you also want to contain two or more different aglycones, these numbers distinguished aglycones is added to “@” such as “@1” and “@2”.
+
+
+### Connection
+
+* The connection information between a backbone and a modification. That have linkage position information, direction of the connection and connected atom position of the modification.
+These information are represented as LIP or GLIP.
+
+
+## WURCS Format Components
+
+### SkeletonCode
+
+* SkeletonCode is a string representation of backbone carbons including the adjacent atoms in modification. Each character of a SkeletonCode is called a CarbonDescriptor. The SkeletonCode is similar to the Extended Stereocode used for representing monosaccharides in MonosaccharideDB. The length of a SkeletonCode is dependent upon the number of carbons in the backbone (e.g. six CarbonDesciptor represent that is a hexose). 
+
+
+Fig
+
+* For example, aldehydo-D-glucose is represented using SkeletonCode as “o2122h”. If the SkeletonCode contains an anomeric center (CarbonDescriptor “a”) such as α-D-glucopyranose shown in Figure 1, the relevant Anomeric Information section must be included (as described in the next section).
+
+* In order to represent monosaccharide structures of unknown carbon chain length, we defined descriptors “<” and “>”.  Thus, CarbonDescriptors that are repeated (with unknown count) are enclosed by “<” and “>”.  For example, glycelaldehyde, tetrose, pentose, and hexose are aldoses, and these open-chain forms are represented using SkeletonCode as “oxh”, “oxxh”, “oxxxh”, “oxxxxh”, respectively. That is, the SkeletonCode of an open-chain aldose is terminated by “o” and “h” and contains a repeated “x”. Thus, such aldoses can be simply represented as “o<x>h” by using “<” and “>”.
+
+
+### CarbonDescriptor
+
+* A CarbonDescriptor represent the condition of connectivity and stereochemistry of neighboring atoms around a backbone carbon. In particular, we defined the classification method for CarbonDescriptor to represent the condition of (potential) carbonyl groups. This resulted definitions to the CarbonDescriptor list (described in detail in Appendix).
+
+* Our classification was performed based on the following terms: (1) whether it is a backbone carbon of a monosaccharide, (2) the position of the backbone carbon, (3) whether the backbone carbon has hydrogen(s), (4) information between neighboring atoms on the backbone carbon, (5) stereochemistry and geometrical isomerism of any double bonds linked to any backbone carbon, (6) whether the backbone carbon is anomeric.
+
+* Details regarding this classification is described in the Appendix.  Table 3.2-1 lists the common CarbonDescriptors defined in WURCS 2.0 as a result of this classification.
+
+
+
+#### Table 3.2-1 CarbonDescriptors for the generic functional groups of monosaccharide. In Fischer projection, X and Y are atoms other than hydrogen and backbone carbons. A is a hetero atom in ether ring.
+
+
+
+| Fischer projection | Typical functional group | CarbonDescriptor | Position in the backbone |
+|---|---|---|---|
+
+
+
+### Anomeric Information
+
+* Anomeric Information represents position and stereochemistry of anomeric center. If one of the backbone carbons is anomeric center, Anomeric Information must be added to the SkeletonCode following a hyphen “-”. If no anomeric center exists, e.g. open chain form or alditols, the Anomeric Information is omitted. It is also omitted if it is not certain whether or not anomeric center exists.
+
+* AnomericPosition represents position number of anomeric center. The position must be the same as the position of CarbonDescriptor “a” in SkeletonCode. Most aldoses have the number “1” and 2-ketoses have “2”. “?” is used for an unknown anomeric position.
+
+* Anomeric Symbol represents stereochemistry of anomeric center. α anomer is represented as symbol “a” and β anomer is represented as symbol “b”. These two anomers are designated according to the configurational relationship between the anomeric center and the anomeric reference atom, hence “a” and “b” are relative stereodescriptors. In WURCS 2.0, new symbols “u” and “d” are defined to represent absolute stereodescriptors. When an exocyclic atom (not hydrogen) connected to the anomeric center is on the left side in cyclic Fischer projection, the Anomeric Symbol is “u” (“u”pside in the Haworth representation). When the exocyclic atom is on the right side, the Anomeric Symbol is “d” (“d”ownside in the Haworth representation). Table 3.3-1 shows these differences in detail. To ensure uniqueness in WURCS representation, these are used only when stereochemistry of anomeric center is specified and anomeric reference atom is not. When the stereochemistry of anomeric center is unknown, the Anomeric Symbol is “x”. “o” represents open chain form explicitly and is usually omitted. To ensure uniqueness in WURCS representation, “o” is used only if it is clearly an open chain form but the information can not be added to the SkeletonCode, e.g. any open chain monosaccharides “<Q>-?o”. These Anomeric Symbols are summarized below.
+
+
+
+
 
 
 
