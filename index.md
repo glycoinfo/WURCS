@@ -18,7 +18,14 @@ WURCS is a representation of carbohydrate structure.
 
 ## Software Tools (Related Links)
 
- * ...
+ * [GlycoNAVI Tools](https://glyconavi.org/Tools/)
+ 
+ * [GlycanFormatConverter Web](https://glyconavi.org/Tools/tool/gfc.php)
+ 
+ * [GlyCosmos API Web](https://glyconavi.org/Tools/tool/cosmos.php)
+ 
+ * [GlyTouCan Glycan Viewer](https://glyconavi.org/Tools/tool/idviewer.php)
+
 
 ## [Publications](publications.md)
 
