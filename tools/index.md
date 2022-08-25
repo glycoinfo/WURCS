@@ -24,6 +24,7 @@
 | ------ | ------ | ------ |
 | GlyTouCan | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 | ... |
 | GlyCosmos | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 & compo2wurcsUI & SugarDrawer | ... |
+| GlycoNAVI | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 & PDB2Glycan & SugarDrawer | ... |
 | wwPDB | PDB2Glycan & wurcs2pic | ... |
 | PubChem | MolWURCS | ... |
 
