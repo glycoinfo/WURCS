@@ -1,12 +1,12 @@
 # WURCS Tools and DBs
 
-* Tools
+* Software tools supporting WURCS
 
 | Tool | Dependencies | Description | Repository | Reference |
 | ------ | ------ | ------ | ------ | ------ |
-| WURCSFramework | ... | ... | [gitlab](https://gitlab.com/glycoinfo/wurcsframework) | ... |
-| GlycanFormatConverter | WURCSFramework | ... | [github](https://github.com/glycoinfo/GlycanFormatConverter) & [cli](https://gitlab.com/glycoinfo/GlycanFormatConverter-cli) | ... |
-| GlycanBuilder2 | WURCSFramework | ... | [github](https://github.com/glycoinfo/GlycanBuilder2) | ... |
+| WURCSFramework |  | WURCSFramework is a framework for WURCS input/output, WURCS string validation and standardization. | [gitlab](https://gitlab.com/glycoinfo/wurcsframework) | ... |
+| GlycanFormatConverter | WURCSFramework | GlycanFormatConverter is core library of glycan text conversion tools. | [github](https://github.com/glycoinfo/GlycanFormatConverter) & [cli](https://gitlab.com/glycoinfo/GlycanFormatConverter-cli) | ... |
+| GlycanBuilder2 | WURCSFramework | GlycanBuilder2 is a glycan structure editing tool that supports a wide variety of glycans and can output images using [SNFG symbols](https://www.ncbi.nlm.nih.gov/glycans/snfg.html). | [github](https://github.com/glycoinfo/GlycanBuilder2) | ... |
 | PDB2Glycan | WURCSFramework | ... | [gitlab](https://gitlab.com/glyconavi/pdb2glycan) | ... |
 | WURCSRDF | WURCSFramework | ... | [gitlab](https://gitlab.com/glycoinfo/wurcsrdf) | ... |
 | subsumption | WURCSFramework | ... | ... | ... |
