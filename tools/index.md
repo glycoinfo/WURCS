@@ -28,6 +28,8 @@
 | GlycoNAVI | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 & PDB2Glycan & SugarDrawer | ... | [GlycoNAVI](https://glyconavi.org) | ... |
 | wwPDB | PDB2Glycan & wurcs2pic | ... | [wwPDB](https://www.wwpdb.org/) | ... |
 | PubChem | MolWURCS | ... | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | ... |
+| GlyGen | WURCS | ... | [GlyGen](https://glygen.org/) | ... |
+| CSDB | WURCS | ... | [CSDB](http://csdb.glycoscience.ru/) | ... |
 
 
 
