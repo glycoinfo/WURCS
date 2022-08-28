@@ -17,6 +17,10 @@ Web3 Unique Representation of Carbohydrate Structures (WURCS) is a representatio
 
 * Software tools supporting WURCS
 
+### Software download
+
+* [https://gitlab.com/GlycoTool/release](https://gitlab.com/GlycoTool/release)
+
 | Tool | Description | Repository | Reference |
 | ------ | ------ | ------ | ------ |
 | WURCSFramework | WURCSFramework is a framework for WURCS input/output, WURCS string validation and standardization. | [gitlab](https://gitlab.com/glycoinfo/wurcsframework) | ... |
@@ -81,10 +85,6 @@ Web3 Unique Representation of Carbohydrate Structures (WURCS) is a representatio
 * Implementation of GlycanBuilder to draw a wide variety of ambiguous glycans.
    * Carbohydr Res. 2017 Jun 5;445:104-116. doi: [10.1016/j.carres.2017.04.015](https://doi.org/10.1016/j.carres.2017.04.015). Epub 2017 Apr 19. PMID: 28525772
 
-
-## Software download
-
-* [https://gitlab.com/GlycoTool/release](https://gitlab.com/GlycoTool/release)
 
 ## Contact
 
