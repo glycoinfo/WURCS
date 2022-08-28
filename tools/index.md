@@ -24,13 +24,13 @@
 
 | DB | Dependencies | Description | URL | Reference |
 | ------ | ------ | ------ | ------ | ------ |
-| GlyTouCan | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 | ... | [GlyTouCan](https://glytoucan.org) | ... |
-| GlyCosmos | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 & compo2wurcsUI & SugarDrawer | ... | [GlyCosmos](https://glycosmos.org) | ... |
-| GlycoNAVI | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 & PDB2Glycan & SugarDrawer | ... | [GlycoNAVI](https://glyconavi.org) | ... |
-| wwPDB | PDB2Glycan & wurcs2pic | ... | [wwPDB](https://www.wwpdb.org/) | ... |
-| PubChem | MolWURCS | ... | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | ... |
-| GlyGen | WURCS | ... | [GlyGen](https://glygen.org/) | ... |
-| CSDB | WURCS | ... | [CSDB](http://csdb.glycoscience.ru/) | ... |
+| GlyTouCan | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 | [GlyTouCan](https://glytoucan.org) is international glycan  structure repository, allowing researchers to assign accession numbers to glycan structures. | [GlyTouCan](https://glytoucan.org) | ... |
+| GlyCosmos | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 & compo2wurcsUI & SugarDrawer | THe [GlyCosmos Portal](https://glycosmos.org) is a Web portal aiming to integrate the glycosciences with the life sciences. It consists of Standards, Repositories and Data Resources, providing information about genes, proteins, lipids, pathways and diseases. (from GlyCosmos site: https://glycosmos.org/) | [GlyCosmos](https://glycosmos.org) | ... |
+| GlycoNAVI | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 & PDB2Glycan & SugarDrawer | [GlycoNAVI](https://glyconavi.org) is a website designed to support glycoscience It provides databases and tools for glycans. | [GlycoNAVI](https://glyconavi.org) | ... |
+| wwPDB | PDB2Glycan & wurcs2pic | [wwPDB](https://www.wwpdb.org/) is the organization that handles the registration, data processing, and distribution of PDB data. | [wwPDB](https://www.wwpdb.org/) | ... |
+| PubChem | MolWURCS | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) is the world's largest collection of freely accessible chemical information. Search chemicals by name, molecular formula, structure, and other identifiers. Find chemical and physical properties, biological activities, safety and toxicity information, patents, literature citations and more. (from PubChem site: https://pubchem.ncbi.nlm.nih.gov/) | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | ... |
+| GlyGen | WURCS | [GlyGen](https://glygen.org/) is a data integration and dissemination project for carbohydrate and glycoconjugate related data. GlyGen retrieves information from multiple international data sources and integrates and harmonizes this data. This web portal allows exploring this data and performing unique searches that cannot be executed in any of the integrated databases alone. (from GlyGen site: https://glygen.org/) | [GlyGen](https://glygen.org/) | ... |
+| CSDB | WURCS | CSDB contains manually curated natural carbohydrate structures, taxonomy, bibliography, NMR, and other data from literature. | [CSDB](http://csdb.glycoscience.ru/) | ... |
 
 
 
