@@ -1,4 +1,4 @@
-# WURCS Tools and DBs
+# WURCS Tools and Databases
 
 * Software tools supporting WURCS
 
@@ -20,9 +20,9 @@
 | compo2wurcsUI | GlycanCompositionConverter | compo2wurcsUI is a web application that utilizes the functionality of GlycanCompositionConverter. This Web tool translated into form monosaccharide compositions to WURCS. It is available at https://glycosmos.gitlab.io/compo2wurcsui/ . | [gitlab](https://gitlab.com/glycosmos/compo2wurcsui) | ... |
 | TCarpRDF | PDB2Glycan | TCarpRDF is a tool that converts PDB data into parsed RDF data in batches using the PDB2Glycan functionality. It is used in [GlycoNAVI](https://glyconavi.org). | [gitlab](https://gitlab.com/glyconavi/tcarprdf) | ... |
 
-* DBs
+* Databases
 
-| DB | Dependencies | Description | URL | Reference |
+| Database | Dependencies | Description | URL | Reference |
 | ------ | ------ | ------ | ------ | ------ |
 | GlyTouCan | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 | [GlyTouCan](https://glytoucan.org) is international glycan  structure repository, allowing researchers to assign accession numbers to glycan structures. | [GlyTouCan](https://glytoucan.org) | Nucleic Acids Res. 2021 Jan 8;49(D1):D1529-D1533. doi: [10.1093/nar/gkaa947](https://doi.org/10.1093/nar/gkaa947). |
 | GlyCosmos | WURCSFramework & GlycanFormatConverter & GlycanBuilder2 & compo2wurcsUI & SugarDrawer | THe [GlyCosmos Portal](https://glycosmos.org) is a Web portal aiming to integrate the glycosciences with the life sciences. It consists of Standards, Repositories and Data Resources, providing information about genes, proteins, lipids, pathways and diseases. (from GlyCosmos site: https://glycosmos.org/) | [GlyCosmos](https://glycosmos.org) | Nat Methods. 2020 Jul;17(7):649-650. doi: [10.1038/s41592-020-0879-8](https://doi.org/10.1038/s41592-020-0879-8). |
