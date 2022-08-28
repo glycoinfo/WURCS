@@ -43,8 +43,12 @@ Web3 Unique Representation of Carbohydrate Structures (WURCS) is a representatio
 * SugarDrawer: A Web-Based Database Search Tool with Editing Glycan Structures.
    * Molecules. 2021 Nov 25;26(23):7149. PMID: 34885724 PMCID: PMC8659005 doi: [10.3390/molecules26237149](https://doi.org/10.3390/molecules26237149). 
 
+* GlycanFormatConverter: a conversion tool for translating the complexities of glycans
+   * Bioinformatics. 2019 Jul 15;35(14):2434-2440. doi: [10.1093/bioinformatics/bty990](https://doi.org/10.1093/bioinformatics/bty990).
+
 * Implementation of GlycanBuilder to draw a wide variety of ambiguous glycans.
    * Carbohydr Res. 2017 Jun 5;445:104-116. doi: [10.1016/j.carres.2017.04.015](https://doi.org/10.1016/j.carres.2017.04.015). Epub 2017 Apr 19. PMID: 28525772
+
 
 ## Software download
 
