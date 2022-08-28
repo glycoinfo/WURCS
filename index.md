@@ -14,7 +14,7 @@ Web3 Unique Representation of Carbohydrate Structures (WURCS) is a representatio
 
 ## [Tips](tips.md)
 
-## [Software Tools](/tools/)
+## [Tools and DBs](/tools/)
 
 
 ## Related Links
