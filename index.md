@@ -6,19 +6,18 @@ The WURCS Working Group is the primary community focusing on the development of 
 
 ## [About WURCS](about.md)
 
-WURCS is a representation of carbohydrate structure.
+Web3 Unique Representation of Carbohydrate Structures (WURCS) is a representation of carbohydrate structure.
 
 ## Documentation
   
-  * 
+  * [WURCS](/doc/WURCS2.md)
 
 ## [Tips](tips.md)
-
 
 ## [Software Tools](/tools/)
 
 
-## Software Tools (Related Links)
+## Related Links
 
  * [GlycoNAVI Tools](https://glyconavi.org/Tools/)
  
@@ -29,27 +28,27 @@ WURCS is a representation of carbohydrate structure.
  * [GlyTouCan Glycan Viewer](https://glyconavi.org/Tools/tool/idviewer.php)
 
 
-## [Publications](publications.md)
+## Publications
 
+### WURCS
 
-## Repositories
+* WURCS: the Web3 unique representation of carbohydrate structures.
+   * J Chem Inf Model. 2014 Jun 23;54(6):1558-66. doi: [10.1021/ci400571e](https://doi.org/10.1021/ci400571e). Epub 2014 Jun 4. PMID: 2826306
 
-  * [WURCSFramework](https://github.com/glycoinfo/wurcsframework)
-  * Format Converter
-    * [Molfile To WURCS 1.0](https://github.com/glycoinfo/MolfileToWURCS1.0)
-    * [Molfile To WURCS 2.0](https://github.com/glycoinfo/MolfileToWURCS2.0)
-    * [GlycoCT To WURCS](https://github.com/glycoinfo/glycocttowurcs)
-    * WURCS To GlycoCT
-    * WURCS to IUPAC
+* WURCS 2.0 Update To Encapsulate Ambiguous Carbohydrate Structures.
+   * J Chem Inf Model. 2017 Apr 24;57(4):632-637. doi: [10.1021/acs.jcim.6b00650](https://doi.org/10.1021/acs.jcim.6b00650). Epub 2017 Mar 22. PMID: 24897372
+
+### Tools using WURCS
+
+* SugarDrawer: A Web-Based Database Search Tool with Editing Glycan Structures.
+   * Molecules. 2021 Nov 25;26(23):7149. PMID: 34885724 PMCID: PMC8659005 doi: [10.3390/molecules26237149](https://doi.org/10.3390/molecules26237149). 
+
+* Implementation of GlycanBuilder to draw a wide variety of ambiguous glycans.
+   * Carbohydr Res. 2017 Jun 5;445:104-116. doi: [10.1016/j.carres.2017.04.015](https://doi.org/10.1016/j.carres.2017.04.015). Epub 2017 Apr 19. PMID: 28525772
 
 ## Software download
-  * [CTFile(Mol, SDF) to WURCS](https://github.com/glycoinfo/WURCS/tree/master/soft/mol2wurcs2)
-    * mol2wurcs2std.jar
-      * WURCS2.0 Conversion System from CTFile (Molfile or SDfile)
-        * Current version: 2.0.180815US
-          * Usage 1: cat [File] | java -jar mol2wurcs2std.jar -stdin -out
-          * Usage 2: java -jar mol2wurcs2std.jar -f [File] -out
-        * Help: java -jar mol2wurcs2std.jar -h
+
+* https://gitlab.com/GlycoTool/release
 
 ## Contact
 
@@ -57,4 +56,4 @@ WURCS is a representation of carbohydrate structure.
 
 ## Acknowledgements
 
-This work has been supported by National Bioscience Database Center (NBDC) of Japan Science and Technology Agency (JST).
+This work has been supported by NBDC of Japan Science and Technology Agency (JST).
