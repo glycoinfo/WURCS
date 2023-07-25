@@ -2,6 +2,7 @@
 
 * Version 2.0
 
+This document is beeing migrated to [Wiki pages](https://github.com/wurcs/WorkingGroup/wiki/)
 ## Introduction
 
 ### Theoretical considerations
