@@ -8,7 +8,7 @@ The WURCS Working Group is the primary community focusing on the development of 
 
 Web3 Unique Representation of Carbohydrate Structures (WURCS) is a representation of carbohydrate structure.
 
-## [Documentation](/doc/WURCS2.md)
+## [Documentation](https://github.com/glycoinfo/WURCS/wiki)
 
 ## [Tips](tips.md)
 
